@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ranjitvolvo1
+  host: ranjitvolvo1
+  disk_quota: 1024M
+  services:
+  - ranjitvolvo1-cloudantNoSQLDB
+  - ranjitvolvo1-iotf-service
+  - availability-monitoring-auto
